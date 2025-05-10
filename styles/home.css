@@ -1,0 +1,43 @@
+.hero-section {
+    background: linear-gradient(to right, #2563eb, #1d4ed8);
+    color: white;
+    padding: 8rem 0 6rem;
+}
+
+.hero-content {
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.features-grid {
+    display: grid;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 2rem;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: #e0e7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+
+.feature-icon i {
+    color: #2563eb;
+    font-size: 1.5rem;
+}
+
+.cta-section {
+    background-color: #f1f5f9;
+    padding: 4rem 0;
+    text-align: center;
+}

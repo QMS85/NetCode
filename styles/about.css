@@ -1,0 +1,36 @@
+.about-hero {
+    background-color: #2563eb;
+    color: white;
+    padding: 6rem 0 4rem;
+}
+
+.stats-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.stat-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+}
+
+.team-member-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.team-member-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
